@@ -16,7 +16,8 @@ class VaccinoBot:
         ]
 
     def stop(self):
-        pass
+        for backend in self.backends:
+            backend.stop()
 
 
 def main():

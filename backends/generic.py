@@ -72,7 +72,7 @@ class LabBackend(abc.ABC):
             # Get available slots and send a message if there are any
             slots = self._check_lab_slots(lab)
             if len(slots) > 0:
-                txt = "Found {vaccine} shot(s) at {address}".format(
+                txt = "Found {vaccine} shot(s) at {address}:\n".format(
                     vaccine=lab["vaccine"], address=lab["address"]
                 )
                 for slot in slots:

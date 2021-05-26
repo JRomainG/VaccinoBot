@@ -51,7 +51,7 @@ Here are the available options:
 Simply start the script and let it run in the background:
 
 ```bash
-python3 main.py
+$ python3 main.py
 ```
 
 By default, the logger will print messages informing you each time slots are checked for a vaccination center, as well as each time a slot is found. You can tweak this by editing the log level in `main.py`.
