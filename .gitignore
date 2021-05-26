@@ -1,0 +1,12 @@
+# Python
+__pycache__
+*.pyc
+
+# Config
+*.ini
+
+# Generated lab files
+*.json
+
+# Telegram
+secret.token

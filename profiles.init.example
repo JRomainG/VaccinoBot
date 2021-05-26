@@ -1,0 +1,18 @@
+[Profile name]
+; How often to check is a lab has new available slots
+check_interval = 120
+
+; The json file containing the labs to check
+; It can be generated using tools/generate_lab_file.py
+lab_file = labs.json
+
+; The Telegram chat ID can be obtained after adding the bot to a chat
+; Replace {token} with the bot's secret token:
+; https://api.telegram.org/bot{token}/getUpdates
+chat_id = my_chat_id
+
+[Disabled profile]
+enabled = no
+check_interval = 300
+lab_file = labs2.json
+chat_id = my_other_chat_id
